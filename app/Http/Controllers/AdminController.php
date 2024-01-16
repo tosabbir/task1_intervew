@@ -36,6 +36,7 @@ class AdminController extends Controller
         $adminData = User::find($id);
         // print_r($adminData);
         return view('admin.admin_profile', compact('adminData'));
+        //Whern i run Your projeck here faching some issues
     }
 
 }
